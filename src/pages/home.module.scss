@@ -1,0 +1,46 @@
+.Content {
+  background: rgb(174, 236, 239);
+  background: linear-gradient(90deg, rgba(174, 236, 239, 1) 0%, rgba(34, 34, 34, 1) 24%);
+  height: 100vh;
+}
+
+.Container {
+  margin-left: 30rem;
+
+  img {
+    margin-top: 2rem;
+  }
+
+  h1 {
+    margin-top: 5rem;
+
+    span {
+      color: var(--text-color);
+
+      &+span {
+        color: #42999D;
+      }
+    }
+  }
+
+  .ButtonArea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 4rem;
+
+    button {
+      background-color: var(--title-color);
+      border: none;
+      border-radius: 100%;
+      padding: 0.5rem;
+
+      display: flex;
+
+      &+button {
+        margin-top: 3rem;
+      }
+    }
+  }
+}
